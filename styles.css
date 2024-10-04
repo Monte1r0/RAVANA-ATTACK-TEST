@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #181818;
+  padding: 1rem 0;
+  border-bottom: 2px solid #18BC9C;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff0000;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Seções principais */
+.intro-section {
+  background-color: #141414;
+  padding: 4rem 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #18BC9C;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #CCCCCC;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #18BC9C;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff0000;
+  color: #FFF;
+  transform: scale(1.1);
+}
+
+/* Seção de informações */
+.info-section {
+  background-color: #1e1e1e;
+  padding: 3rem 0;
+}
+
+.info-section h2 {
+  color: #ff0000;
+}
+
+.info-section p {
+  margin-bottom: 1.5rem;
+}
+
+/* Rodapé */
+footer {
+  background-color: #181818;
+  padding: 1rem 0;
+  color: #CCCCCC;
+  font-size: 0.9rem;
+  border-top: 2px solid #ff0000;
+}
+
+footer p {
+  margin: 0;
+}
